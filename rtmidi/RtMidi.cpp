@@ -3091,7 +3091,23 @@ void MidiOutWinMM :: sendMessage( const unsigned char *message, size_t size )
 #if defined(__UNIX_JACK__)
 
 // JACK header files
-// #include "/usr/local/include/jack/jack.h"
+#include "/usr/local/include/jack/jack.h"
+#include "/usr/local/include/jack/control.h"
+#include "/usr/local/include/jack/intclient.h"
+#include "/usr/local/include/jack/jslist.h"
+#include "/usr/local/include/jack/metadata.h"
+#include "/usr/local/include/jack/midiport.h"
+#include "/usr/local/include/jack/net.h"
+#include "/usr/local/include/jack/ringbuffer.h"
+#include "/usr/local/include/jack/session.h"
+#include "/usr/local/include/jack/statistics.h"
+#include "/usr/local/include/jack/systemdeps.h"
+#include "/usr/local/include/jack/thread.h"
+#include "/usr/local/include/jack/transport.h"
+#include "/usr/local/include/jack/types.h"
+#include "/usr/local/include/jack/uuid.h"
+#include "/usr/local/include/jack/weakjack.h"
+#include "/usr/local/include/jack/weakmacros.h"
 #include <jack/jack.h>
 #include <jack/midiport.h>
 #include <jack/ringbuffer.h>
