@@ -5,7 +5,7 @@ package rtmidi
 #cgo LDFLAGS: -g
 
 #cgo freebsd CXXFLAGS: -D__UNIX_JACK__
-#cgo freebsd LDFLAGS: -pthread
+#cgo freebsd LDFLAGS: -ljack -pthread
 #cgo linux CXXFLAGS: -D__LINUX_ALSA__
 #cgo linux LDFLAGS: -lasound -pthread
 #cgo windows CXXFLAGS: -D__WINDOWS_MM__

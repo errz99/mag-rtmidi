@@ -3091,7 +3091,7 @@ void MidiOutWinMM :: sendMessage( const unsigned char *message, size_t size )
 #if defined(__UNIX_JACK__)
 
 // JACK header files
-#include "/usr/local/include/jack/jack.h"
+// #include "/usr/local/include/jack/jack.h"
 #include <jack/jack.h>
 #include <jack/midiport.h>
 #include <jack/ringbuffer.h>
