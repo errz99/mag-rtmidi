@@ -3108,9 +3108,9 @@ void MidiOutWinMM :: sendMessage( const unsigned char *message, size_t size )
 #include "/usr/local/include/jack/uuid.h"
 #include "/usr/local/include/jack/weakjack.h"
 #include "/usr/local/include/jack/weakmacros.h"
-#include <jack/jack.h>
-#include <jack/midiport.h>
-#include <jack/ringbuffer.h>
+// #include <jack/jack.h>
+// #include <jack/midiport.h>
+// #include <jack/ringbuffer.h>
 #include <pthread.h>
 #include <sched.h>
 #ifdef HAVE_SEMAPHORE
